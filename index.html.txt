@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shabnam Shams Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Dancing+Script:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>I am Shabnam Shams</h1>
+        <p>Welcome to my colorful portfolio!</p>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home">
+            <h2>Welcome</h2>
+            <p>Hello! I am Shabnam Shams, a passionate and creative individual excited to showcase my journey and skills. 
+               I am originally from Afghanistan and strongly believe in the power of education, resilience, and self-expression.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>
+                My name is Shabnam Shams, and I am an aspiring web designer and developer. I have a strong interest in building 
+                creative digital solutions, and I am always looking for opportunities to learn new skills and improve my craft. 
+                My dream is to inspire others through my work and contribute to meaningful change in my community.
+            </p>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1: First Web Page</h3>
+                    <p>A simple yet functional web page built using HTML and CSS, marking the start of my journey in web development.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2: Responsive Design</h3>
+                    <p>Exploring responsive design principles to ensure my pages look great on all devices.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3: Portfolio Layout</h3>
+                    <p>Designing a creative layout for a personal portfolio using advanced CSS techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Follow me on:</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">LinkedIn</a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">Instagram</a>
+                <a href="https://github.com" target="_blank" class="social-icon github">GitHub</a>
+                <a href="https://twitter.com" target="_blank" class="social-icon twitter">Twitter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shabnam Shams Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
